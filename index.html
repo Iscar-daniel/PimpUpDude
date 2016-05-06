@@ -1,32 +1,80 @@
 <!DOCTYPE html>
 <head>
 <title>home</title>
- <link rel="stylesheet" type="text/css" href="css/materialize.css">
- <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
- <script type="text/javascript" src="js/materialize.js"></script>
- <script type="text/javascript" src="js/materialize.min.js"></script>
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
 
 </head>
 <html>
  <body>
-	wew lho
+ <div class="navbar-fixed">
+   <nav>
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo">IscarDan</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+ 			    
+ 			    <li> Sebuah curahan hati</li>
+      </ul>
+    </div>
+  </nav>
+  </div>
+
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/parallax1.jpg"></div>
+  </div>
+  <div class="section gray">
+    <div class="row container">
+      <h2 class="header">First Impression</h2>
+      <p class="grey-text text-darken-3 lighten-4">Saya merasa tertantang untuk mengerjakan project mengenai pimp-up ini. Saya memutuskan untuk menggunakan python untuk mengerjakan tugas ini, dan berharap semuanya berjalan mulus.Dengan banyaknya tugas setelah menyelesaikannya baru saya akan mengerjakan project untuk MSP Pimp-up</p>
+    </div>
+  </div>
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/parallax2.jpg"></div>
+
+  </div>
+  <div class="section gray">
+    <div class="row container">
+      <h2 class="header">Aku bisa</h2>
+      <p class="grey-text text-darken-3 lighten-4">Saya melihat sebuah package yang menarik, namanya <a href="https://github.com/Keda87/python-quran-odoa">odoa</a>(one day one ayah) atau mungkin di Indonesiakan "satu hari satu juz"(maaf kalau salah). ide saya kali ini menggunakan restful, dengan python sebagai server dan php sebagai client. untuk php saya menggunakan flask sebagai frameworknya. </p>
+    </div>
+  </div>
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/parallax3.jpg"></div>
+
+  </div>
+  <div class="section gray">
+    <div class="row container">
+      <h2 class="header">Seems to be Fine!</h2>
+      <p class="grey-text text-darken-3 lighten-4">Semuanya berjalan dengan baik, sampai saya mencoba untuk mendeploy ke azure, dan tidak terjadi sesuatu. ternyata pythonnya saya deploy sebagai web apps, dimana seharusnya sebagai server. Dengan memanfaatkan search engine dan stackoverflow saya menemukan bahwa seharusnya ada VM machine yang bertindak sebagai server, dan sepertinya untuk azure yang menggunakan dreamspark belum bisa.(cmiiw) </p>
+    </div>
+  </div>
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/parallax4.jpg"></div>
+
+   
+  </div>
+   <div class="section gray">
+    <div class="row container">
+      <h2 class="header">Show must Go ON!</h2>
+      <p class="grey-text text-darken-3 lighten-4">Dan sepertinya semua berjalan cukup kacau. daripada saya tidak melakukan sesuatu, lebih baik saya membuat web berisi curahan hati saya. Setidaknya saya sudah menaruh project saya di <a href="https://github.com/Iscar-daniel?tab=repositories" >github</a>, mungkin bisa dilihat nanti. </p>
+      <img src="images/bbb.jpg" width="650px" height="650px">
+    </div>
 
 
-  <ul class="collapsible" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
-      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-    </li>
-    <li>
-      <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
-      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-    </li>
-    <li>
-      <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
-      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-    </li>
-  </ul>
+
+
         
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+
+        <script type="text/javascript">
+        	$(document).ready(function(){
+      $('.parallax').parallax();
+    });
+        </script>
 
  </body>
 </html>
